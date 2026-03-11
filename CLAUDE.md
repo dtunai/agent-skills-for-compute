@@ -15,6 +15,7 @@ This repository contains agent-optimized skills for NVIDIA GPU-accelerated compu
 | [prime-verifiers](skills/prime-verifiers/SKILL.md) | Prime Intellect verifiers & PrimeRL for LLM post-training |
 | [tinker](skills/tinker/SKILL.md) | Thinking Machines Lab training API for LLM fine-tuning |
 | [biosimspace](skills/biosimspace/SKILL.md) | Engine-agnostic biomolecular simulation (AMBER, GROMACS, OpenMM) |
+| [cutile](skills/cutile/SKILL.md) | NVIDIA CuTile Python tile-based GPU kernel DSL (Blackwell) |
 
 ## Adding Skills
 

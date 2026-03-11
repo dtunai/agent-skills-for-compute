@@ -28,6 +28,7 @@ Structured, actionable instructions for AI coding assistants (Claude Code, Curso
 | **[prime-verifiers](skills/prime-verifiers/SKILL.md)** | LLM Post-Training | RL environments, rubrics, reward functions, GEPA, PrimeRL |
 | **[tinker](skills/tinker/SKILL.md)** | LLM Fine-Tuning | LoRA training API, RL/SL/DPO, remote GPU clusters |
 | **[biosimspace](skills/biosimspace/SKILL.md)** | Biomolecular Simulation | Engine-agnostic MD, FEP, metadynamics (AMBER/GROMACS/OpenMM) |
+| **[cutile](skills/cutile/SKILL.md)** | GPU Programming | NVIDIA CuTile tile-based DSL, tensor cores, TMA (Blackwell) |
 
 ## Installation
 
@@ -182,6 +183,9 @@ skills/
     references/
   biosimspace/
     SKILL.md                     # Engine-agnostic biomolecular simulation
+    references/
+  cutile/
+    SKILL.md                     # NVIDIA CuTile tile-based GPU kernel DSL
     references/
 ```
 
