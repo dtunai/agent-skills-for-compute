@@ -1,6 +1,6 @@
 # Agent Skills for Compute
 
-Agent-optimized skills for NVIDIA GPU-TPU-QPU-accelerated computing frameworks. 
+Agent-optimized skills for the full LLM lifecycle — pre-training, post-training (RL/DPO/RLHF), inference, and autonomous research — plus GPU/TPU/QPU kernel programming, simulation, and scientific computing.
 
 Structured, actionable instructions for AI coding assistants (Claude Code, Cursor, Codex, Gemini CLI, OpenCode).
 
