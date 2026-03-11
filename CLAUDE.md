@@ -14,6 +14,7 @@ This repository contains agent-optimized skills for NVIDIA GPU-accelerated compu
 | [autoresearch-setup](skills/autoresearch-setup/SKILL.md) | Scaffold autonomous experiment loops (Karpathy's autoresearch philosophy) |
 | [prime-verifiers](skills/prime-verifiers/SKILL.md) | Prime Intellect verifiers & PrimeRL for LLM post-training |
 | [tinker](skills/tinker/SKILL.md) | Thinking Machines Lab training API for LLM fine-tuning |
+| [biosimspace](skills/biosimspace/SKILL.md) | Engine-agnostic biomolecular simulation (AMBER, GROMACS, OpenMM) |
 
 ## Adding Skills
 
