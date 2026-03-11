@@ -1,0 +1,37 @@
+{
+	"name": "agent-skills-for-compute",
+	"owner": {
+		"name": "Agent Cluster",
+		"url": "https://github.com/dtunai"
+	},
+	"metadata": {
+		"description": "Agent-optimized skills for NVIDIA GPU-accelerated computing: quantum computing (CUDA-Q), physics-informed ML (PhysicsNeMo), and computational biology (BioNeMo)",
+		"version": "1.0.0"
+	},
+	"plugins": [
+		{
+			"name": "cuda-quantum",
+			"description": "CUDA-Q hybrid quantum-classical programming with GPU-accelerated simulation. Covers kernel creation, circuit execution, variational algorithms (VQE/QAOA), multi-GPU workflows, noise modeling, and hardware backend configuration.",
+			"source": "./",
+			"skills": [
+				"./skills/cuda-quantum"
+			]
+		},
+		{
+			"name": "physicsnemo",
+			"description": "NVIDIA PhysicsNeMo for physics-informed machine learning. Covers neural operators (FNO, AFNO), weather/climate models (FourCastNet, CorrDiff, GraphCast), distributed training, and physics-constrained AI surrogate development.",
+			"source": "./",
+			"skills": [
+				"./skills/physicsnemo"
+			]
+		},
+		{
+			"name": "bionemo",
+			"description": "NVIDIA BioNeMo for computational biology and drug discovery. Covers protein language models (ESM-2), structure prediction (AlphaFold2), sequence design (ProteinMPNN, RFdiffusion), NIM microservices, and generative biology pipelines.",
+			"source": "./",
+			"skills": [
+				"./skills/bionemo"
+			]
+		}
+	]
+}
