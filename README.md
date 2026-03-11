@@ -25,6 +25,8 @@ Structured, actionable instructions for AI coding assistants (Claude Code, Curso
 | **[bionemo](skills/bionemo/SKILL.md)** | Computational Biology | ESM-2, AlphaFold2, ProteinMPNN, RFdiffusion, NIM microservices |
 | **[alchemi-toolkit-ops](skills/alchemi-toolkit-ops/SKILL.md)** | MLOps & Infrastructure | GPU cluster management, Docker, Kubernetes, CI/CD |
 | **[autoresearch-setup](skills/autoresearch-setup/SKILL.md)** | Autonomous Research | Experiment loop scaffolding, program.md, single-metric optimization |
+| **[prime-verifiers](skills/prime-verifiers/SKILL.md)** | LLM Post-Training | RL environments, rubrics, reward functions, GEPA, PrimeRL |
+| **[tinker](skills/tinker/SKILL.md)** | LLM Fine-Tuning | LoRA training API, RL/SL/DPO, remote GPU clusters |
 
 ## Installation
 
@@ -171,6 +173,12 @@ skills/
     references/                  # GPU infrastructure and MLOps
   autoresearch-setup/
     SKILL.md                     # Autonomous experiment loop scaffolding
+  prime-verifiers/
+    SKILL.md                     # Prime Intellect verifiers & PrimeRL
+    references/
+  tinker/
+    SKILL.md                     # Thinking Machines Lab training API
+    references/
 ```
 
 ## Contributing
